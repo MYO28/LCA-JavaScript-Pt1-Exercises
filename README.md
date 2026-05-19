@@ -11,7 +11,6 @@ Each exercise is submitted on its own branch.
 
 | Branch | Topic |
 |---|---|
-
 | week6-javascript-ex-01 | Variables and String Manipulation |
 | week6-javascript-ex-02 | Number Operations and Type Conversion |
 | week6-javascript-ex-03 | Array Basics |
