@@ -1,24 +1,25 @@
-// TODO: Create a variable called number1 and store any number in it
-let number1 = 42;
+// ── Numbers & Type Conversion ─────────────────────────────────────────────────
 
-// TODO: Create a variable called number2 and store a different number in it
-let number2 = 10;
+// Two numbers to work with
+const number1 = 8;
+const number2 = 3;
 
-// TODO: Convert number1 to a string and store it in a new variable
-// We use the String() function here for clean, explicit conversion
-let number1AsString = String(number1);
+// Convert number1 to a string using String()
+const number1AsString = String(number1);
 
-// TODO: Add number1 and number2 and store the result in a variable called sum
-let sum = number1 + number2;
+// Basic math operations
+const sum = number1 + number2; // addition
+const product = number1 * number2; // multiplication
 
-// TODO: Multiply number1 and number2 and store the result in a variable called product
-let product = number1 * number2;
-
-// TODO: Print all results to the console
-console.log("--- Exercise Results ---");
-console.log("Number 1:", number1);
-console.log("Number 2:", number2);
-console.log("Number 1 converted to a string:", number1AsString);
-console.log("Data type of number1AsString:", typeof number1AsString);
-console.log("Sum (number1 + number2):", sum);
-console.log("Product (number1 * number2):", product);
+// Print all results
+console.log("number1:          " + number1);
+console.log("number2:          " + number2);
+console.log(
+  "number1 as string:" +
+    number1AsString +
+    " (type: " +
+    typeof number1AsString +
+    ")",
+);
+console.log("sum:              " + sum);
+console.log("product:          " + product);
